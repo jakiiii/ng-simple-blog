@@ -1,0 +1,28 @@
+<div class="container">
+	<div class="position-set">
+		<div *ngIf='query'>
+			<p>search query <b>{{ query }}</b></p>
+		</div>
+
+		<div class="row content-center">
+ 		  <div class="card col-md-3 col-sm-12 video-item" *ngFor='let item of videoList'>
+		  	<div class="card-body">
+			  	<a href="videos/{{ item.slug }}" *ngIf='item.image'>
+			    	<img class="card-img-top"  [src]="item.image" alt="Card image cap" class="img img-thumbnail" style="height: 200px;">
+				</a>
+				<h5 class="card-title card-title-txt">{{ item.name }}</h5>
+		    </div><!-- end of card-body -->
+		    <div class="card-footer">
+		    	<a href="videos/{{ item.slug }}" class="btn btn-block btn-outline-success">Watch</a>
+		    </div><!-- end of card-footer -->
+		  </div><!--- card col-4 -->
+		</div><!-- end of row -->
+
+
+<!--		<div *ngFor='let item of videoList'>
+			<h4><a href="videos/{{ item.slug }}" routerLinkActive="active">{{ item.name }}</a></h4>
+			<iframe *ngIf='item.embed' width="560" height="315" [src]="getEmbedUrl(item) | safe" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			<hr />
+		</div> -->
+	</div>
+</div>

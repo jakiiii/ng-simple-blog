@@ -1,0 +1,20 @@
+<div class="container">
+	<div class="position-set">
+		<div class="col-sm-12">
+			<h1>{{ title }}</h1>
+		</div>
+		<div class="row content-center">
+ 		  <div class="card col-md-3 col-sm-12 video-item" *ngFor='let item of videoList'>
+		  	<div class="card-body">
+			  	<a href="videos/{{ item.slug }}" *ngIf='item.image'>
+			    	<img class="card-img-top"  [src]="item.image" alt="Card image cap" class="img img-thumbnail" style="height: 200px;">
+				</a>
+				<h5 class="card-title card-title-txt">{{ item.name }}</h5>
+		    </div><!-- end of card-body -->
+		    <div class="card-footer">
+		    	<a href="videos/{{ item.slug }}" class="btn btn-block btn-outline-success">Watch</a>
+		    </div><!-- end of card-footer -->
+		  </div><!--- card col-4 -->
+		</div><!-- end of row -->
+	</div>
+</div>

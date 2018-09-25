@@ -1,0 +1,14 @@
+<div class="container">
+	<div *ngIf='video' class="position-set">
+		<h1>{{ video.name }}</h1><hr/>
+		<div *ngIf='video.embed' class="content-center embed-video">
+			<iframe width="1000" height="500" [src]="getEmbedUrl(video) | safe" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		</div>
+		<div *ngIf="video.image && !video.embed" class="content-center embed-video">
+			<img class="card-img-top"  [src]="video.image" alt="{{ video.name }}" class="img img-responsive">
+		</div>
+		<br/>
+		<h2>Description</h2><hr />
+		<p></p>
+	</div>
+</div>

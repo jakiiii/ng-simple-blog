@@ -1,0 +1,135 @@
+[
+	{
+		"name": "Palawan Island, Philippines",
+		"slug": "palawan-island",
+		"embed": "dvHnIm2QBMM",
+		"image": "assets/images/place1.jpeg",
+		"featured": false
+	},
+	{
+		"name": "Istanbul City, Turkey",
+		"slug": "istanbul-city",
+		"embed": "2FKlfUyAQ8",
+		"image": "assets/images/place11.png",
+		"featured": false
+	},
+	{
+		"name": "Seljalandsfoss, Iceland",
+		"slug": "seljalandsfoss",
+		"embed": "AvIUFEJ701A",
+		"image": "assets/images/place2.jpeg",
+		"featured": false
+	},
+	{
+		"name": "Plitvice Lakes National Park, Croatia",
+		"slug": "plitvice-lakes-national-park",
+		"embed": "TNKyJKXnWmI",
+		"image": "assets/images/place3.jpeg",
+		"featured": false
+	},
+	{
+		"name": "Algar de Benagil, Portugal",
+		"slug": "algar-de-benagil",
+		"embed": "aEiQkyofs2o",
+		"image": "assets/images/place4.jpeg",
+		"featured": false
+	},
+	{
+		"name": "Cliffs of Moher, Ireland",
+		"slug": "cliffs-of-moher",
+		"embed": "YZkw7GyfY3Q",
+		"image": "assets/images/place5.jpeg",
+		"featured": true
+	},
+	{
+		"name": "Great Barrier Reef and Whitehaven beach, Australia",
+		"slug": "great-barrier-reef-Whitehaven-beach",
+		"embed": "BjIcqPRI87A",
+		"image": "assets/images/place6.jpeg",
+		"featured": false
+	},
+	{
+		"name": "Antelope Canyon, Arizona",
+		"slug": "antelope-canyon",
+		"embed": "OkkERB1zT6M",
+		"image": "assets/images/place7.jpeg",
+		"featured": false
+	},
+	{
+		"name": "Iguazu Falls, Argentina/Brazil border",
+		"slug": "iguazu-falls",
+		"embed": "u2tF2pZU8Rg",
+		"image": "assets/images/place8.jpeg",
+		"featured": false
+	},
+	{
+		"name": "Moraine Lake, Canada",
+		"slug": "moraine-lake-canada",
+		"embed": "t7A5tHtHAB0",
+		"image": "assets/images/place9.jpeg",
+		"featured": false
+	},
+	{
+		"name": "Salar de Uyuni, Bolivia",
+		"slug": "salar-de-uyuni",
+		"embed": "zx7PfwwpD6g",
+		"image": "assets/images/place10.jpeg",
+		"featured": false
+	},
+	{
+		"name": "Salar de Uyuni, Bolivia",
+		"slug": "salar-de-uyuni",
+		"embed": "zx7PfwwpD6g",
+		"image": "assets/images/place10.jpeg",
+		"featured": false
+	},
+	{
+		"name": "Grand Canyon, USA",
+		"slug": "grand-canyon",
+		"embed": "ezpqDi42pRM",
+		"image": "assets/images/place12.jpg",
+		"featured": false
+	},
+	{
+		"name": "Blue Ridge Mountains, USA",
+		"slug": "blue-ridge-mountains",
+		"embed": "0B7KsNreilI",
+		"image": "assets/images/place13.jpg",
+		"featured": false
+	},
+	{
+		"name": "Plitvice Lakes National Park, Croatia",
+		"slug": "plitvice-lakes-national-park",
+		"embed": "TNKyJKXnWmI",
+		"image": "assets/images/place14.jpg",
+		"featured": false
+	},
+	{
+		"name": "Sossusvlei, Namibia",
+		"slug": "sossusvlei",
+		"embed": "34fDeESJULU",
+		"image": "assets/images/place15.jpg",
+		"featured": false
+	},
+	{
+		"name": "Victoria Falls, Zambia/Zimbabwe",
+		"slug": "victoria-falls",
+		"embed": "maf6ZKFa6X0",
+		"image": "assets/images/place16.jpg",
+		"featured": false
+	},
+	{
+		"name": "Azad Kashmir, Pakistan",
+		"slug": "azad-kashmir",
+		"embed": "gn41AiFNpag",
+		"image": "assets/images/place17.jpg",
+		"featured": true
+	},
+	{
+		"name": "Beautiful Bangladesh",
+		"slug": "beautiful-bangladesh",
+		"embed": "QNUSIOMb6vI",
+		"image": "assets/images/place18.jpg",
+		"featured": false
+	}
+]

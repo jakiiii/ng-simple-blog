@@ -1,0 +1,61 @@
+<carousel *ngIf='homeImageList'>
+	<slide>
+		<img [src]="videoListDetaultImage" alt="first slide" class="img-carousel" />
+		<div class="carousel-caption d-none d-md-block">
+			<h3><b>Tours the World</b></h3>
+			<!--<p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>-->
+			<p><a href="videos/" (click)='preventNormal($event, image)' class="btn btn-sm btn-primary">View Videos</a></p>
+		</div>
+	</slide>
+
+	<slide *ngFor='let imageObj of homeImageList'>
+		<img [src]="imageObj.image" alt="first slide" class="img-carousel" />
+		<div class="carousel-caption d-none d-md-block">
+			<h3><b>{{ imageObj.name }}</b></h3>
+			<!--<p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>-->
+			<p><a routerLink="videos/{{ imageObj.slug }}" routerLinkActive="active" (click)='preventNormal($event, image)' class="btn btn-sm btn-light">View</a></p>
+		</div>
+	</slide>
+<!--	<slide>
+		<img src="assets/images/img2.jpg" alt="second slide" class="img-carousel" />
+		<div class="carousel-caption d-none d-md-block">
+			<h3>Second slide label</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			<p><a href="/videos/video-2" #imageTwo (click)='preventNormal($event, imageTwo)' class="btn btn-sm btn-light">Video 02</a></p>
+		</div>
+	</slide>
+	<slide>
+		<img src="assets/images/img3.jpg" alt="third slide" class="img-carousel" />
+		<div class="carousel-caption d-none d-md-block">
+			<h3>Third slide label</h3>
+			<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+			<p><a href="/videos/video-3" #imageThree (click)='preventNormal($event, imageThree)' class="btn btn-sm btn-light">Video 03</a></p>
+		</div>
+	</slide> -->
+</carousel>
+
+<!--
+<div class="container">
+	<div class="position-set">
+		<div class="row content-center">
+ 		  <div class="card col-md-3 col-sm-12 video-item" *ngFor="let item of videoList | paginate: { itemsPerPage: 6, currentPage: p }">
+		  	<div class="card-body">
+			  	<a href="videos/{{ item.slug }}" *ngIf='item.image'>
+			    	<img class="card-img-top"  [src]="item.image" alt="Card image cap" class="img img-thumbnail" style="height: 200px;">
+				</a>
+				<h5 class="card-title card-title-txt">{{ item.name }}</h5>
+		    </div>
+		    <div class="card-footer">
+		    	<a href="videos/{{ item.slug }}" class="btn btn-block btn-outline-success">Watch</a>
+		    </div>
+		  </div>
+		</div>
+
+		<div class="text-center">
+			<pagination-controls (pageChange)="p = $event" maxSize="5"></pagination-controls>
+		</div>
+
+		<br/>
+	</div>
+</div>
+-->
